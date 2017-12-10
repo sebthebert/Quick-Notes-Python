@@ -222,3 +222,36 @@ exec
 
 str / float / int
 ```
+
+## Object Oriented Programming
+
+```python
+class Person:
+    def __init__(self, firstname, lastname):
+        self.firstname = firstname
+        self.lastname = lastname
+        
+    def firstname(self):
+        return self.firstname
+
+p1 = Person("John", "Doe")
+print(p1.firstname)
+```
+>>>
+```
+John
+```
+
+```python
+class User(Person):
+    def __init__(self, login):
+        print("User Class")
+        self.login = login
+        
+    def full_info(self):
+        print(self.firstname + " " + self.lastname + " (" + self.login + ")")
+
+u = User("John", "Doe", "jdoe")
+print(u.firstname)
+u.full_info()
+```

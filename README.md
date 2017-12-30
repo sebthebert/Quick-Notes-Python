@@ -212,6 +212,9 @@ print sum
 
 ```
 abs
+min
+max
+
 bool
 
 dir
@@ -220,7 +223,26 @@ help
 eval
 exec
 
+type
 str / float / int
+```
+
+dir
+```
+import math # Imports the math module
+everything = dir(math) # Sets everything to a list of things from math
+print everything # Prints 'em all!
+```
+
+type
+```
+integer = 42
+pi = 3.14
+msg = 'hello'
+
+print type(integer)
+print type(pi)
+print type(msg)
 ```
 
 ## Object Oriented Programming

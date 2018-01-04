@@ -29,6 +29,32 @@ comment
 list_fruits = [ "Apples", "Bananas", "Oranges" ]
 ```
 
+List slice:
+
+```python
+to_five = print to_five[::2]
+
+print to_five[3:]
+# prints ['D', 'E'] 
+
+print to_five[:2]
+# prints ['A', 'B']
+
+print to_five[::2]
+# print ['A', 'C', 'E']
+
+print to_five[::-1]
+# print ['E', 'D', 'C', 'B', 'A']
+```
+
+List comprehension:
+
+```python
+evens_to_ten = [i for i in range(11) if i % 2 == 0]
+
+even_squares = [x * x for x in range(1, 11) if (x % 2) == 0]
+```
+
 ### Tuples
 
 ```python

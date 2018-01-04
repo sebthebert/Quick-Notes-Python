@@ -234,6 +234,16 @@ print sum
 42
 ```
 
+Anonymous Functions: (lambda)
+```python
+my_list = range(16)
+print filter(lambda x: x % 3 == 0, my_list)
+
+squares = [x ** 2 for x in range(1, 11)]
+print filter(lambda x: x >= 30 and x <= 70, squares)
+# [36, 49, 64]
+```
+
 ## Builtin Functions
 
 ```

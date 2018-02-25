@@ -2,6 +2,8 @@
 
 Notes about Python
 
+**NOTE:** Blocks don't define Scope in Python !
+
 ## Comments
 
 ```python
